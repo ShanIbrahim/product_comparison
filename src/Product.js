@@ -93,7 +93,10 @@ export default function Product() {
               ))}
             </Select>
           </FormControl>
-          <CardMedia sx={{ height: 800 }} image={product_images[index]} />
+          <CardMedia
+            sx={{ width: 400, height: 400 }}
+            image={product_images[index]}
+          />
         </Grid>
         <Grid item xs={8}>
           <ComparisionTable index={index} />
